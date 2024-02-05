@@ -8,11 +8,8 @@
     ]
   },
   "scripts": {
-    "android": "yarn workspace mobile android",
-    "compile": "tsc -b --incremental",
-    "ios": "yarn workspace mobile  ios",
-    "studio": "yarn workspace mobile studio",
-    "xcode": "yarn workspace mobile xcode"
+    "Start": "node node_modules/react-scripts/bin/react-scripts start"
+
   },
   "dependencies": {
     "react-native": "*"
